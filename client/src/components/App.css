@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: monospace;
+  background-color: #c4c4c4;
+}
+
+.float{
+	position:fixed;
+	bottom:40px;
+	right:40px;
+	color:rgb(0, 0, 0);
+	border-radius:50px;
+	text-align:center;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4b4b4b;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+  margin-left: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  padding-bottom: 25px;
+}
+
+.navlink {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navlink:focus {
+  text-decoration: underline;
+  color: blue;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.navlink-2 {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navlink-2:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.bin-btn {
+  background-color: #e35b5b;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 15px;
+  font-family: monospace;
+}
+
+.bin-btn:hover {
+  background-color: #e47373;
+  cursor: pointer;
+}
+
+.bin-btn-2 {
+  background-color: #e35b5b;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 15px;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+
+.bin-btn-2:hover {
+  background-color: #e47373;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
